@@ -3,4 +3,12 @@
     <string name="welcome_to_to_do_list">Welcome to TO-do List</string>
     <string name="create_tasks">Create Tasks Quickly and Easily</string>
     <string name="input_tasks">Input tasks, subtasks and repetitive tasks.</string>
+    <string name="Task_Reminders">Task Reminders</string>
+    <string name="set_reminders_and_never_miss_important_things">Set reminders and never miss important things</string>
+    <string name="Task_Reminder">Set Reminders and Never miss important things!</string>
+    <string name="PersonalizeWidgets">Personalized Widgets</string>
+    <string name="PersonalizeWidget">\"Create Widgets,and view your tasks more easily\"</string>
+    <string name="PersonalizeWidge">"Create Widgets and view your tasks more easily "</string>
+    <string name="CustomThemes">Custom Themes</string>
+    <string name="CustomTheme">Choose the theme you like and start your wonderful day</string>
 </resources>

@@ -64,11 +64,172 @@
                             android:textSize="13sp"
                             android:layout_gravity="start"/>
 
+                        <LinearLayout
+                            android:layout_marginStart="-40dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginTop="50dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/ltTaskReminders"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/ic_book"
+                                    app:tint="@color/blue" />
+
+                                <LinearLayout
+                                    android:layout_marginStart="0dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/Task_Reminders"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp"
+                                        android:layout_gravity="start"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/Task_Reminder"
+                                        android:textSize="13sp"
+                                        android:layout_gravity="start"/>
+
+                                    <LinearLayout
+                                        android:layout_marginStart="-55dp"
+                                        android:layout_marginEnd="0dp"
+                                        android:layout_marginTop="50dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:id="@+id/ltPersonalizedWidgets"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+
+                                            <ImageView
+                                                android:layout_width="40dp"
+                                                android:layout_height="40dp"
+                                                android:src="@drawable/ic_book"
+                                                app:tint="@color/blue" />
+
+                                            <LinearLayout
+                                                android:layout_marginStart="15dp"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="@string/PersonalizeWidgets"
+                                                    android:textStyle="bold"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp"
+                                                    android:layout_gravity="start"/>
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="@string/PersonalizeWidge"
+                                                    android:textSize="13sp"
+                                                    android:layout_gravity="start"/>
+
+                                                <LinearLayout
+                                                    android:layout_marginStart="-55dp"
+                                                    android:layout_marginEnd="0dp"
+                                                    android:layout_marginTop="50dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:orientation="vertical">
+
+                                                    <LinearLayout
+                                                        android:id="@+id/ltCustomThemes"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:orientation="horizontal">
+
+                                                        <ImageView
+                                                            android:layout_width="40dp"
+                                                            android:layout_height="40dp"
+                                                            android:src="@drawable/ic_book"
+                                                            app:tint="@color/blue" />
+
+                                                        <LinearLayout
+                                                            android:layout_marginStart="15dp"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:orientation="vertical">
+
+                                                            <TextView
+                                                                android:layout_width="wrap_content"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="@string/CustomThemes"
+                                                                android:textStyle="bold"
+                                                                android:textColor="@color/black"
+                                                                android:textSize="15sp"
+                                                                android:layout_gravity="start"/>
+
+                                                            <TextView
+                                                                android:layout_width="wrap_content"
+                                                                android:layout_height="wrap_content"
+                                                                android:text="@string/CustomTheme"
+                                                                android:textSize="13sp"
+                                                                android:layout_gravity="start"/>
+
+                                                            <LinearLayout
+                                                                android:layout_marginTop="200dp"
+                                                                android:layout_marginStart="0dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:orientation="vertical">
+
+                                                                <Button
+                                                                    android:layout_width="wrap_content"
+                                                                    android:layout_height="wrap_content"
+                                                                    android:text="Continue"
+                                                                    android:textSize="25sp"
+                                                                    android:textStyle="bold"
+                                                                    android:textAlignment="center"
+                                                                    android:backgroundTint="@color/blue"
+                                                                    android:layout_gravity="center"/>
+
+
+
+                                                            </LinearLayout>
+                                                        </LinearLayout>
+                                                    </LinearLayout>
+                                                </LinearLayout>
+
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
                     </LinearLayout>
                     
                 </LinearLayout>
                 
             </LinearLayout>
+
             
             
 
